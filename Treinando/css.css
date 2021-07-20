@@ -11,7 +11,7 @@ body{
     background-color: #f6b319;
 }
 #logo-img{
-    background: url('../Imagens/Logo-Restaurant.png');
+    background: url('Imagens/Logo-Restaurant.png');
     width: 150px;
     height: 150px;
 }
@@ -100,7 +100,7 @@ body{
         font-size: 1.7vw;
     }
     #logo-img{
-        background: url('../Imagens/Logo-Restaurant-Medium.png');
+        background: url('Imagens/Logo-Restaurant-Medium.png');
         width: 100px;
         height: 100px;
     }
@@ -118,7 +118,7 @@ body{
         font-size: 1.7vw;
     }
     #logo-img{
-        background: url('../Imagens/Logo-Restaurant-Small.png');
+        background: url('Imagens/Logo-Restaurant-Small.png');
         width: 75px;
         height: 75px;
     }
