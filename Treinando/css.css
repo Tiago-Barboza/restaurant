@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+    background-color: #f6b319;
+}
+#logo-img{
+    background: url('../Imagens/Logo-Restaurant.png');
+    width: 150px;
+    height: 150px;
+}
+.navbar-brand a{
+    text-decoration: none;
+    color: #557c3e;
+    font-family: 'Lora', serif;
+    text-shadow: 2px 2px 2px  black;
+    text-transform: uppercase;
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+    color: #557c3e;
+}
+.navbar-brand p img{
+    width: 50px;
+    height: 50px;
+}
+.navbar-brand p span{
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 1px grey;
+}
+
+/*Estilizando o botão*/
+.navbar-toggler{
+    background-color: rgb(228, 218, 218);
+    width: 40px;
+    height:40px;
+    padding: 0px;
+    font-size: 2.5em;
+}
+.bi-list{
+    position: relative;
+    color: rgb(192, 22, 22);
+    top: -6%;
+}
+#botao{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    border-radius: 10px;
+    border: 1px rgb(192, 22, 22) solid;
+}
+/*Estilizando o menu de navegação*/
+#itens-navbar a{
+    color: #951C49;
+    text-align: center;
+}
+#itens-navbar a span{
+    font-size: 3vw;
+}
+#itens-navbar a:hover{
+    background: #ffc234;
+}
+#fone{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+#fone a span{
+    font-size: 3vw;
+}
+#fone a div{
+    font-size: 0.7em;
+    color: #557c3e;
+    text-align: right;
+    margin-top: -10px;
+}
+#fone a:hover{
+    background-color: transparent;
+}
+
+    /*Fazendo a navbar responsiva*/
+/*Large Devices*/
+@media (min-width:1200px){
+
+}
+/*Medium Devices*/
+@media (min-width:992px) and (max-width:1199px){
+    .navbar-brand a h1{
+        font-size: 3vw;
+    }
+    .navbar-brand p span{
+        font-size: 1.7vw;
+    }
+    #logo-img{
+        background: url('../Imagens/Logo-Restaurant-Medium.png');
+        width: 100px;
+        height: 100px;
+    }
+    .navbar-brand p img{
+        width: 40px;
+        height: 40px;
+    }
+}
+/*Small Devices*/
+@media (min-width:768px) and (max-width:991px){
+    .navbar-brand a h1{
+        font-size: 3vw;
+    }
+    .navbar-brand p span{
+        font-size: 1.7vw;
+    }
+    #logo-img{
+        background: url('../Imagens/Logo-Restaurant-Small.png');
+        width: 75px;
+        height: 75px;
+    }
+    .navbar-brand p img{
+        width: 30px;
+        height: 30px;
+    }
+}
+/*Extra Small Devices*/
+@media (max-width:767px){
+    .navbar-brand p img{
+        width: 30px;
+        height: 30px;
+    }
+    #itens-navbar a span{
+        font-size: 1.8em;
+    }
+}
