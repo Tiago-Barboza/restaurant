@@ -11,7 +11,7 @@ body{
     background-color: #f6b319;
 }
 #logo-img{
-    background: url('../Imagens/Logo-Restaurant.png');
+    background: url('Imagens/Logo-Restaurant.png');
     width: 150px;
     height: 150px;
 }
